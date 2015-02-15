@@ -32,3 +32,11 @@ The requirements have changed very slightly from version 1.0.x to this version o
 These are all important as the internals of ASPCanvas have changed to utilise ADO Streams
 
 *Note that this class will NOT work with ChiliSoft's ASP package.*
+
+# Why is this here? Are there shiny new things?
+No, nothing new. This is here because I get at least 1 request a week about this. The last time I added anyting to this class was in 2002, when Classic ASP developers started making their transition to ASP.NET. I thought this would die in usage, but as it turns out, some institutions IT infrastructures fall into the "It ain't broke, so don't fix it" category. This script does not contain an actual LZW compression algorithm, it merely ratchets up the code table, for two reasons:
+
+1. It's VBScript. In 2002 it was slow. Generating a proper compressed GIF of any proportion was beyond the capabilities of a server at the time
+2. Unisys held the LZW patent until 2003 in the USA. Worldwide it expired in 2004. My framed Unisys royalty payment request remains on my wall.
+
+Both of these points are a thing of the past. Have fun!
