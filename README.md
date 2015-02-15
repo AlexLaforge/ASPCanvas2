@@ -5,7 +5,8 @@ ASPCanvas is a means of generating GIF images on an IIS/ASP based server without
 
 Drawing a circle.
 
-```<!--#include file="canvas.asp"-->
+```
+<!--#include file="canvas.asp"-->
 <!--#include file="font.asp"-->
 <%
 Dim objCanvas
@@ -17,7 +18,8 @@ objCanvas.ForegroundColourIndex = 1
 objCanvas.Resize 320,240,False
 objCanvas.Circle 160,120,110
 objCanvas.Write
-%>```
+%>
+```
 
 # Requirements
 
